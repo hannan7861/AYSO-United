@@ -1,0 +1,87 @@
+    <div class="main-container">
+        <div class="write">
+            <div class="ayso">
+                <h1>AYSO United Partnership With <br> Stat Sport</h1>
+                <p>STAT sport will become the official wearable technology of AYSO United . <br>The FIFA Approved
+                    GPStracker is the most advanced wearable tech on <br>the market.which alllow players to track and
+                    analyze their game like the <br>Pro,s.</p>
+                <button>MORE INFO</button>
+            </div>
+
+        </div>
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    .main-container {
+        height: 80vh;
+        width: 100%;
+        box-sizing: border-box;
+        background-image: url(banner-1.jpeg);
+        background-size: cover;
+        display: flex;
+        align-items: center;
+      
+      
+      }
+      
+      .write {
+        height: 70vh;
+        width: 50vw;
+        overflow: hidden;
+        box-sizing: border-box;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        animation: 0.80s sliding;
+      }
+      
+      
+      
+      
+      .ayso {
+        height: 60vh;
+        width: 35vw;
+        box-sizing: border-box;
+        overflow: hidden;
+      
+      }
+      
+      .write button {
+        color: black;
+        border: 1px solid black;
+        background-color: white;
+        padding: 1vh;
+      }
+      
+      .write h1 {
+        font-size: 38px;
+        margin-top: 10vh;
+      }
+      
+      .write p {
+        margin-top: 5vh;
+      }
+      
+      .write button {
+        margin-top: 5vh;
+      }
+      
